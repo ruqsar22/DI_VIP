@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="resume.css">
+</head>
+
+<body>
+    <style>
+    {
+        background-color: rgb(242, 245, 249);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .full {
+        width: 50%;
+        max-width: 1000px;
+        min-height: 100px;
+        background-color: rgb(222, 224, 228);
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+    }
+    .left {
+        position: initial;
+        background-color: rgb(196, 198, 201);
+        padding: 20px;
+    
+    }
+    .right {
+        position: initial;
+        background-color: rgb(213, 222, 228);
+        padding: 20px;
+    
+    }
+    .image, .Contact, .Skills, .Language,  .title,
+      .Education, .project ,.links{
+        margin-bottom: 30px;
+    }
+    .h2 {
+        background-color: #f2eff6;
+    }
+    </style>
+	<div class="full">
+		<div class="left">
+			<div class="image">
+                <img src=
+                "C:\Users\shaik\Downloads\resume.jpg"
+                     alt="gfg-logo"
+                     style="width:200px;height:150px;">
+			</div>
+			<div class="Contact">
+				<h2>CONTACT</h2>
+				<p><b>Email id:</b>amairashaik@gmail.com</p>
+				<p><b>Mobile no :</b>8947896523</p>
+			</div>
+			<div class="Skills">
+				<h2>SKILLS</h2>
+				<ul>
+					<li>Programming Languages :
+					Python, Java, C++</li>
+					<li>Frontend : HTML, CSS,
+					JavaScript</li>
+					
+				</ul>
+			</div>
+			<div class="Communication language">
+				<h2>COMMUNICATION LANGUAGES</h2>
+				<ul>
+					<li>English</li>
+					<li>Hindi</li>
+                    <li>Telugu</li>
+				</ul>
+		</div>
+        <div class="Training">
+            <h2>TRAININGS</h2>
+            <ul>
+                <li>Cloud Computing
+                    CareerX, Online
+                    Cloud Computing is the trending technology.I am very
+                    dedicated towards this course</li>
+                </ul>
+        </div>
+        <div class="Internships">
+            <h2>INTERNSHIPS</h2>
+            <ul>
+                <li>FRONT END DEVELOPMENT
+                    Stumagz, Virtual
+                    May 2023 - Present
+                    Learnt usage of markup languages like HTML, CSS,
+                    JavaScript to create web pages</li>
+                <li> WEB DEVELOPMENT
+                    PHN Technology, Virtual
+                    Apr 2023 - Present
+                    Learnt creating and developing Web pages.
+                    Built projects like e-commerce website, Landpage and
+                    College intro website</li>
+                <li>CLOUD VIRTUAL
+                    AICTE-EduSkills, Virtual
+                    May 2023 - Present
+                    Learnt basics of Cloud architecting
+                    Got certified for completed the modules of AWS Cloud
+                    Architecting course</li>
+            </ul>
+        </div>
+    </div>
+
+    
+		<div class="right">
+			<div class="name">
+				<h1>SHAIK RUQSAR BEGUM</h1>
+                <p>Student at Ravindra college of engineering for women</p>
+            </div>
+            <br>
+			<div class="Educational details">
+				<h2>EDUCATION</h2>
+                <h3><b><li>B.tech, Computer Sience And  Artificial intelligence</li></b> </h3>
+				<p>Ravindra college of engineering for women</p>
+                <p>2020-2024</p>
+                <p>CGPA:8.00/10</p>
+				<h3><b><li>Senior Secondary (XII), Science</li></b></h3>
+				<p>Narayana junior college</p>
+                <p>Year of completion:2020</p>
+                <p>CGPA:8.0/10</p>
+				<h3><b><li>Secondary (X)</li></b></h3>
+                <p>Sri Meghana English Medium High School</p>
+                <p>Year of completion: 2018</p>
+                <p>CGPA: 9.80/10</p>
+
+			</div>
+            <br>
+			<div class="CERTIFICATIONS">
+				<h2>CERTIFICATIONS</h2>
+				<p><li>Certified on attending a Cloud Tech Workshop organized by
+                    Eduskills and AWS</li></p>
+                <p><li>Certification from Airbaclabs company for attending Web
+                    Development (Web 3.0) Workshop</li></p>
+                <p><li>Certified from Microsoft on completing Azure Fundamentals
+                    course</li></p>
+                <p><li>Certified from Cisco on completing Cyber Security Essentials
+                    course</li></p>
+                <p><li>Certified from AWS Academy on completing AWS Academy
+                    Cloud Architecting course</li></p>  
+			</div>
+            <br>
+			<div class="project">
+                <h2>PROJECTS</h2>
+				<ul>
+					<li>
+						<h4>Automatic street light</h4>
+						<p>Learnt new concepts based on iot</p>
+					</li>
+                    <br>
+                    <div class="Work Samples">
+                        <h2>WORK SAMPLES</h2>
+                        <li>github link</li>
+					<a href="https://github.com/shaikruqsar/cloud1">my github account</a>
+                        <li>Trailblazer Link</li>
+                    <a href="https://trailblazer.me/id/sruqsarbegum">my trailblazer account</a>
+                    </div>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
